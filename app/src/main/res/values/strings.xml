@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BeyikYolSms</string>
+    <string name="server">192.168.1.121</string>
+</resources>

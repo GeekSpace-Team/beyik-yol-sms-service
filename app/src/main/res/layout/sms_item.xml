@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bg"
+    android:background="@color/inactive"
+    android:padding="12dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone"
+            android:textColor="@color/textColor"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card"
+            android:layout_marginTop="6dp"
+            app:cardBackgroundColor="@color/second"
+            app:cardCornerRadius="22dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:padding="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="status"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginEnd="12dp"
+                    android:textColor="@color/white"
+                    android:drawablePadding="12dp"
+                    android:gravity="center_vertical"
+                    android:textSize="14sp"
+                    />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <LinearLayout
+            android:layout_marginTop="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/sms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="123"
+                android:textColor="@color/textColor"
+                android:textSize="12sp"
+                />
+
+            <TextView
+                android:id="@+id/smsDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="123"
+                android:textColor="@color/textColor"
+                android:textSize="12sp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

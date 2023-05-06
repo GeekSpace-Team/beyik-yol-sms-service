@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#10194E</color>
+    <color name="second">#1DC76B</color>
+    <color name="secondPress">#32E484</color>
+    <color name="accent">#D7C9C9</color>
+    <color name="inactive">#32192259</color>
+    <color name="success">#1DC7AC</color>
+    <color name="error">#FE4A54</color>
+    <color name="sent">#FAAD39</color>
+    <color name="textColor">#858EC5</color>
+    <color name="white">#EEEEEE</color>
+    <color name="black">#010A43</color>
+    <color name="blackTransParent">#00010A43</color>
+</resources>
